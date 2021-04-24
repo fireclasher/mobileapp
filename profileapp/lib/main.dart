@@ -24,10 +24,8 @@ class Profile extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             Center(
-              child: Icon(
-                Icons.account_box,
-                color: Colors.grey,
-                size: 80,
+              child: Image(
+                image: AssetImage('assets/akil.jpg'),
               ),
             ),
             Text(
